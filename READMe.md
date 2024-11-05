@@ -22,7 +22,7 @@ This project is a simple Markov Decision Process (MDP) game implemented using Py
    ```
 2. Navigate to the project directory:
    ```sh
-   cd AI_Lab_Project
+   cd MDP_Game_implementation
    ```
 3. Run the MDP game script:
    ```sh
