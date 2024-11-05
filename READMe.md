@@ -18,7 +18,7 @@ This project is a simple Markov Decision Process (MDP) game implemented using Py
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/justAbhinav/MDP_Game_implementation
    ```
 2. Navigate to the project directory:
    ```sh
@@ -39,7 +39,7 @@ This project is a simple Markov Decision Process (MDP) game implemented using Py
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Acknowledgements
 
