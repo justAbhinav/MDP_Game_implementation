@@ -8,11 +8,13 @@ This project is a simple Markov Decision Process (MDP) game implemented using Py
 - Receive rewards based on the current state.
 - Reset the game to the initial state.
 - Simple graphical user interface using Tkinter.
+- Utility calculation using Bellman MDP utility function.
 
 ## Requirements
 
 - Python 3.x
 - Tkinter library (usually included with Python)
+- `tabulate` library (install using `pip install tabulate`)
 
 ## How to Run
 
@@ -27,6 +29,7 @@ This project is a simple Markov Decision Process (MDP) game implemented using Py
 3. Run the MDP game script:
    ```sh
    python MDP.py
+   python utility_calculation.py
    ```
 
 ## Game Instructions
@@ -37,6 +40,10 @@ This project is a simple Markov Decision Process (MDP) game implemented using Py
 4. The game ends when you reach the final state (-2 or 2), and a message box will show your final state and reward.
 5. Click the "Reset Game" button to restart the game.
 
+## Game Instructions
+
+The utility calculation for the MDP is performed using the Bellman MDP utility function. The utility matrix for T=0, T=1, T=2 is printed using the tabulate library
+
 ## License
 
 This project is licensed under the MIT License.
@@ -45,3 +52,4 @@ This project is licensed under the MIT License.
 
 - Tkinter for the graphical user interface.
 - Python for the programming language.
+- Tabulate library for utility matrix printing.
